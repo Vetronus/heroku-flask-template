@@ -3,7 +3,7 @@
 
 Heroku Flask Template is a simple web app programmed in Python-3 using flask micro-framework. It is created for begginers to understand the basics of creating a flask web app and deploying it on the Heroku. It can also be used as a template to create your new flask web apps which can then easily be deployable on Heroku.
 
-##### Please note that this web-app is designed to be deployed on the HEROKU Platform. You can visit it by clicking [here](https://openflaskapi.heroku.com).
+##### Please note that this web-app is designed to be deployed on the HEROKU Platform. You can visit it by clicking [here](https://flasktemplate.heroku.com).
 
 ## Language, Framework and Plugins used :
 - ### Python 3.6.2
