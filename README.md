@@ -22,5 +22,4 @@ I tried to deploy several of my python applications to Heroku. But it was a disa
 
 ## License and Usage :
 
-This project is completely open-source and free-to-use. But you will need to mention about its author.
-Also there are some exceptions where this project can be used, please read Privacy Policy [here](http://parthsarthee.com/ops-privacy-policy)
+This project is completely open-source and free-to-use. But you will need to mention about its great, super awesome author XD (JK, use it anywhere you want, I really don't care.) PS, Happy Coding! 
