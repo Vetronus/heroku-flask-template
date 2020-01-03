@@ -18,7 +18,7 @@ Heroku Flask Template is a simple web app programmed in Python-3 using flask mic
 - ### Push it to the Heroku server and deploy.
 
 ## Why I created this template ?
-I tried to deploy several of my python applications to Heroku. But it was a disaster to find out so many flaws. There were so many tutorials yet it takes somuch time to figure things out, thus once I sucessfully deployed my first flask app on Heroku I decided to upload it on GitHub so that everyone can use it ! 
+I tried to deploy several of my python applications to Heroku. But it was a disaster to find out so many flaws. There were so many tutorials yet it takes so much time to figure things out, thus once I sucessfully deployed my first flask app on Heroku I decided to upload it on GitHub so that everyone can use it ! 
 
 ## License and Usage :
 
