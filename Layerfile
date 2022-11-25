@@ -22,4 +22,4 @@ RUN pip install -r requirements.txt
 RUN BACKGROUND python app.py
 
 # Expose the port
-EXPOSE WEBSITE localhost:5000
+EXPOSE WEBSITE http://127.0.0.1:5000
