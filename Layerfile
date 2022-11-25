@@ -10,7 +10,7 @@ RUN sudo apt update
 RUN sudo apt install python
 RUN sudo apt update
 RUN sudo apt install python-pip
-RUN sudo apt install python-flask
+RUN sudo apt install python3-flask
 RUN sudo apt update
 
 # Copy project files
