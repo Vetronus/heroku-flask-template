@@ -8,22 +8,19 @@ RUN sudo apt update
 RUN sudo apt install software-properties-common
 RUN sudo add-apt-repository ppa:deadsnakes/ppa
 RUN sudo apt update
-RUN sudo apt install python3.8
-RUN sudo apt install python3-pip
-
-# Install django & postgresql python driver
-RUN pip3
+RUN sudo apt install python
+RUN sudo apt update
+RUN sudo apt install python-pip
 
 
 # Copy project files
 COPY . .
 
 # Install dependencies
-RUN pip3 install -r requirements.txt
-
+RUN pip install -r requirements.txt
 
 # Start the server
-RUN BACKGROUND python3 app.py
+RUN BACKGROUND python app.py
 
 # Expose the port
 EXPOSE WEBSITE localhost:5000
