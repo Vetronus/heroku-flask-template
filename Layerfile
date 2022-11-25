@@ -6,7 +6,6 @@ FROM vm/ubuntu:18.04
 # Install python 3 & postgresql
 RUN sudo apt update
 RUN sudo apt install software-properties-common
-RUN sudo add-apt-repository ppa:deadsnakes/ppa
 RUN sudo apt update
 RUN sudo apt install python
 RUN sudo apt update
