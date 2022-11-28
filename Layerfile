@@ -1,0 +1,26 @@
+#This is an example webapp.io configuration for Django!
+FROM vm/ubuntu:18.04
+
+# To note: Layerfiles create entire VMs, *not* containers!
+
+# Install python 3 & postgresql
+RUN sudo apt update
+RUN sudo apt install software-properties-common
+RUN sudo apt update
+RUN sudo apt install python
+RUN sudo apt update
+RUN sudo apt install python-pip
+RUN sudo apt install python3-flask
+RUN sudo apt update
+
+# Copy project files
+COPY . .
+
+# Install dependencies
+RUN pip install -r requirements.txt
+
+# Start the server
+RUN BACKGROUND flask run -h 0.0.0.0 -p 3000
+
+# Expose the port
+EXPOSE WEBSITE 3000
